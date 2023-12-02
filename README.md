@@ -26,17 +26,18 @@ Este projeto colaborativo implementa três algoritmos de Machine Learning para a
 
 A eficácia dos modelos é avaliada por meio de quatro métricas principais:
 
-1. **Acurácia (Accuracy):** Proporção de predições corretas em relação ao total.
-   ![Fórmula da Acurácia](https://latex.codecogs.com/svg.latex?%5Ctext%7BAccuracy%7D%20%3D%20%5Cfrac%7B%5Ctext%7BN%C3%BAmero%20de%20predi%C3%A7%C3%B5es%20corretas%7D%7D%7B%5Ctext%7BTotal%20de%20amostras%7D%7D)
+1. **Acurácia (Accuracy):** 
+   \[ \text{Accuracy} = \frac{\text{Número de predições corretas}}{\text{Total de amostras}} \]
 
-2. **F1-Score:** Métrica que combina precisão e recall, útil quando as classes estão desbalanceadas.
-   ![Fórmula do F1-Score](https://latex.codecogs.com/svg.latex?%5Ctext%7BF1-Score%7D%20%3D%202%20%5Ctimes%20%5Cleft%28%20%5Cfrac%7B%5Ctext%7BPrecis%C3%A3o%7D%20%5Ctimes%20%5Ctext%7BRecall%7D%7D%7B%5Ctext%7BPrecis%C3%A3o%7D%20%2B%20%5Ctext%7BRecall%7D%7D%20%5Cright%29)
+2. **F1-Score:** 
+   \[ \text{F1-Score} = 2 \times \left( \frac{\text{Precisão} \times \text{Recall}}{\text{Precisão} + \text{Recall}} \right) \]
 
-3. **Recall (Sensibilidade):** Proporção de verdadeiros positivos em relação ao total de positivos reais.
-   ![Fórmula do Recall](https://latex.codecogs.com/svg.latex?%5Ctext%7BRecall%7D%20%3D%20%5Cfrac%7B%5Ctext%7BVerdadeiros%20Positivos%7D%7D%7B%5Ctext%7BVerdadeiros%20Positivos%20&plus;%20Falsos%20Negativos%7D%7D)
+3. **Recall (Sensibilidade):** 
+   \[ \text{Recall} = \frac{\text{Verdadeiros Positivos}}{\text{Verdadeiros Positivos + Falsos Negativos}} \]
 
-4. **Precisão:** Proporção de verdadeiros positivos em relação ao total de positivos previstos.
-   ![Fórmula da Precisão](https://latex.codecogs.com/svg.latex?%5Ctext%7BPrecis%C3%A3o%7D%20%3D%20%5Cfrac%7B%5Ctext%7BVerdadeiros%20Positivos%7D%7D%7B%5Ctext%7BVerdadeiros%20Positivos%20&plus;%20Falsos%20Positivos%7D%7D)
+4. **Precisão:** 
+   \[ \text{Precisão} = \frac{\text{Verdadeiros Positivos}}{\text{Verdadeiros Positivos + Falsos Positivos}} \]
+
 
 Certifique-se de ajustar os parâmetros dos algoritmos e explorar diferentes estratégias de pré-processamento para otimizar o desempenho do modelo na detecção de pulsares.
 
