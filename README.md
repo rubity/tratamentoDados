@@ -28,7 +28,10 @@ A eficácia dos modelos é avaliada por meio de cinco métricas principais:
 
 1. **Matriz de confusão (Confusion Matrix):** 
 
-$\begin{bmatrix} TN & FP \\\ FN & TP \end{bmatrix}$
+$$\begin{bmatrix} 
+TN & FP \\ 
+FN & TP \\
+end{bmatrix} $$
 
 - **TN (True Negative):** Observações corretamente classificadas como negativas.
 - **FP (False Positive):** Observações incorretamente classificadas como positivas.
