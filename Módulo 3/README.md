@@ -27,7 +27,7 @@ Os modelos supervisionados são treinados em um conjunto de dados rotulado, onde
 
 ## Detecção de Pulsares usando Machine Learning
 
-Este projeto colaborativo implementa três algoritmos de Machine Learning para a detecção de pulsares: Support Vector Classifier (SVC), K-Nearest Neighbors (KNN) e Random Forest Tree. Esses algoritmos são treinados em um dataset que inclui as seguintes colunas:
+O dataset utilizado nesse projeto inclui as seguintes colunas:
 
 1. **Mean of the integrated profile**: Média do perfil integrado.
 2. **Standard deviation of the integrated profile**: Desvio padrão do perfil integrado.
@@ -77,6 +77,10 @@ O F1-Score é a média harmônica entre precisão e recall. Ele é particularmen
 2. **Matriz de Confusão:**
 Analisar a matriz de confusão oferece insights sobre os erros específicos cometidos pelo modelo. Isso é crucial para entender como o modelo está lidando com a classe minoritária.
 
+# Conclusão
 
+Após a avaliação dos diferentes algoritmos de Machine Learning para a detecção de pulsares, observamos que todos os modelos apresentaram resultados similares e satisfatórios. A aplicação de técnicas de Machine Learning mostrou-se uma ferramenta promissora na área da astronomia, oferecendo uma abordagem eficiente para identificar pulsares em conjuntos de dados estelares complexos.
+
+Esses resultados encorajam a continuação da exploração de técnicas de Machine Learning na astronomia.
 
 
