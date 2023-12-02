@@ -24,21 +24,40 @@ Este projeto colaborativo implementa três algoritmos de Machine Learning para a
 
 ## Avaliação do Modelo
 
-A eficácia dos modelos é avaliada por meio de quatro métricas principais:
+A eficácia dos modelos é avaliada por meio de cinco métricas principais:
 
-1. **Acurácia (Accuracy):** 
-   $$\[ \text{Accuracy} = \frac{\text{Número de predições corretas}}{\text{Total de amostras}} \]$$
+1. **Matriz de confusão (Confusion Matrix):** 
 
-2. **F1-Score:** 
+\[ \begin{bmatrix} TN & FP \\ FN & TP \end{bmatrix} \]
+
+- **TN (True Negative):** Observações corretamente classificadas como negativas.
+- **FP (False Positive):** Observações incorretamente classificadas como positivas.
+- **FN (False Negative):** Observações incorretamente classificadas como negativas.
+- **TP (True Positive):** Observações corretamente classificadas como positivas.
+
+2. **Acurácia (Accuracy):** 
+   $$\ \text{Acurácia} = \frac{\text{Número de predições corretas}}{\text{Total de amostras}} \]$$
+
+3. **F1-Score:** 
    $$\[ \text{F1-Score} = 2 \times \left( \frac{\text{Precisão} \times \text{Recall}}{\text{Precisão} + \text{Recall}} \right) \]$$
 
-3. **Recall (Sensibilidade):** 
+4. **Recall (Sensibilidade):** 
    $$\[ \text{Recall} = \frac{\text{Verdadeiros Positivos}}{\text{Verdadeiros Positivos + Falsos Negativos}} \]$$
 
-4. **Precisão:** 
+5. **Precisão:** 
    $$\[ \text{Precisão} = \frac{\text{Verdadeiros Positivos}}{\text{Verdadeiros Positivos + Falsos Positivos}} \]$$
 
 
-Certifique-se de ajustar os parâmetros dos algoritmos e explorar diferentes estratégias de pré-processamento para otimizar o desempenho do modelo na detecção de pulsares.
+Quando lidamos com datasets desbalanceados, ou seja, quando a proporção entre as classes não é equitativa, a acurácia por si só, normalmente utilizada para avaliar um modelo, pode não ser uma métrica adequada. Isso ocorre porque um modelo pode alcançar uma alta acurácia simplesmente prevendo sempre a classe majoritária, ignorando completamente a classe minoritária.
+
+Abaixo, segue uma descrição mais detalhada dos dois métodos de avaliação de desempenho dos modelos que devem ser priorizados, levando em consideração o contexto supracitado. 
+
+### 1. **F1-Score:**
+O F1-Score é a média harmônica entre precisão e recall. Ele é particularmente útil quando há um desequilíbrio entre as classes, pois leva em consideração tanto os falsos positivos quanto os falsos negativos.
+
+### 2. **Matriz de Confusão:**
+Analisar a matriz de confusão oferece insights sobre os erros específicos cometidos pelo modelo. Isso é crucial para entender como o modelo está lidando com a classe minoritária.
+
+
 
 
