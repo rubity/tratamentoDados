@@ -27,16 +27,16 @@ Este projeto colaborativo implementa três algoritmos de Machine Learning para a
 A eficácia dos modelos é avaliada por meio de quatro métricas principais:
 
 1. **Acurácia (Accuracy):** 
-   \[ \text{Accuracy} = \frac{\text{Número de predições corretas}}{\text{Total de amostras}} \]
+   $$\[ \text{Accuracy} = \frac{\text{Número de predições corretas}}{\text{Total de amostras}} \]$$
 
 2. **F1-Score:** 
-   \[ \text{F1-Score} = 2 \times \left( \frac{\text{Precisão} \times \text{Recall}}{\text{Precisão} + \text{Recall}} \right) \]
+   $$\[ \text{F1-Score} = 2 \times \left( \frac{\text{Precisão} \times \text{Recall}}{\text{Precisão} + \text{Recall}} \right) \]$$
 
 3. **Recall (Sensibilidade):** 
-   \[ \text{Recall} = \frac{\text{Verdadeiros Positivos}}{\text{Verdadeiros Positivos + Falsos Negativos}} \]
+   $$\[ \text{Recall} = \frac{\text{Verdadeiros Positivos}}{\text{Verdadeiros Positivos + Falsos Negativos}} \]$$
 
 4. **Precisão:** 
-   \[ \text{Precisão} = \frac{\text{Verdadeiros Positivos}}{\text{Verdadeiros Positivos + Falsos Positivos}} \]
+   $$\[ \text{Precisão} = \frac{\text{Verdadeiros Positivos}}{\text{Verdadeiros Positivos + Falsos Positivos}} \]$$
 
 
 Certifique-se de ajustar os parâmetros dos algoritmos e explorar diferentes estratégias de pré-processamento para otimizar o desempenho do modelo na detecção de pulsares.
