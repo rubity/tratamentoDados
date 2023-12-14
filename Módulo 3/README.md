@@ -21,9 +21,9 @@ Os modelos supervisionados são treinados em um conjunto de dados rotulado, onde
 
 1. **Support Vector Classifier (SVC):** Este modelo busca encontrar um hiperplano que melhor separa as classes no espaço de características.
    
-2. **KNeighborsClassifier:** KNeighborsClassifier classifica as observações com base nas classes de seus vizinhos mais próximos no espaço de características.
+2. **KNeighborsClassifier (KNC):** KNeighborsClassifier classifica as observações com base nas classes de seus vizinhos mais próximos no espaço de características.
 
-3. **Decision Tree Classifier:** Baseado em árvores de decisão, onde as decisões são tomadas em cada nó da árvore com base nas características, resultando em uma estrutura de decisão hierárquica para classificação.
+3. **Decision Tree Classifier (DTC):** Baseado em árvores de decisão, onde as decisões são tomadas em cada nó da árvore com base nas características, resultando em uma estrutura de decisão hierárquica para classificação.
 
 ## Detecção de Pulsares usando Machine Learning
 
