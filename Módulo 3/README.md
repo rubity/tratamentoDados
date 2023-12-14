@@ -23,7 +23,7 @@ Os modelos supervisionados são treinados em um conjunto de dados rotulado, onde
    
 2. **KNeighborsClassifier:** KNeighborsClassifier classifica as observações com base nas classes de seus vizinhos mais próximos no espaço de características.
 
-3. **Random Forest Tree:** Uma floresta aleatória é composta por várias árvores de decisão e produz uma classificação com base nas votações dessas árvores.
+3. **Decision Tree Classifier:** Baseado em árvores de decisão, onde as decisões são tomadas em cada nó da árvore com base nas características, resultando em uma estrutura de decisão hierárquica para classificação.
 
 ## Detecção de Pulsares usando Machine Learning
 
